@@ -108,11 +108,6 @@ header {
 }
 
 /* Technology Section */
-section .technology {
-	background:#f4f4f4;
-    display:flex;
-}
-
 .tech-heading {
 	background:#fff;
     color:#00456e;
@@ -134,7 +129,6 @@ section .technology {
 }
 
 .spotlight-article figure img, .primary-article-1 figure img, .primary-article-2 figure img, .secondary-article figure img {
-	border-top:1px solid #4bc6df;
     width:100%;
 }
 
@@ -195,6 +189,10 @@ section .technology {
     color:#333;
 }
 
+.secondary-article h6 {
+    padding:2%;
+}
+
 .secondary-article-link > h5, .secondary-article-link:focus, .secondary-article-link:hover {
 	text-decoration:none;
     color:#333;
@@ -246,6 +244,11 @@ section .technology {
 }
 
 /* General Section Styles */
+section .wrap {
+	background:#f4f4f4;
+    display:flex;
+}
+
 .section-heading {
 	background:#fff;
     color:#00456e;
@@ -267,4 +270,30 @@ section .divider-bar {
     border-top:1px solid #4bc6df;
 }
 
+.same-height {
+    height:260px;
+}
+
+.opinion .same-height {
+    height:230px;
+}
+
+.box-dark {
+    background:#e5e5e5;
+    color:#005689;
+}
+
+.box-dark h5 {
+    color:#005689;
+    font-size:17px;
+}
+
+.box-dark a {
+    color:#005689;
+}
+
 /* News Section */
+.news-background {
+    background:#f4f4f4;
+    margin-bottom:2%;
+}
