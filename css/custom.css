@@ -1,8 +1,270 @@
 body {
     font-family: 'Arvo', serif;
+}
+
+h3 {
+    font-size:140%;
+}
+
+h4 {
+    color:#fff;
+    padding:2%;
+}
+
+a {
     color:#fff;
 }
 
+/**********************
+DESKTOP STYLES
+**********************/
+
+/* Header */
 header {
     background:#005689;
 }
+
+#guardian_logo {
+    width:320px;
+    height:60px;
+}
+
+/* Navigation */
+.nav > li > a:focus, .nav > li > a:hover {
+    background:#005689;
+    text-decoration:underline;
+    color:#fff;
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background:#005689;
+}
+
+.nav-link-padding > li > a:focus, .nav-link-padding > li > a:hover {
+    background:#00456e;
+    text-decoration:underline;
+    color:#fff;
+}
+
+.nav-hamburger-background > li > a:focus, .nav-hamburger-background > li > a:hover {
+    background:#333;
+    text-decoration:underline;
+    color:#fff;
+}
+
+#nav-guardian_g {
+    width:25px;
+    height:20px;
+}
+
+.nav-link-padding > li > a {
+    padding:10px 4px 10px;
+}
+
+.nav-hamburger-background > li {
+    background:#333;
+    float:right;
+}
+
+.row.main-nav {
+    font-size:15px;
+    background:#00507f;
+    margin-top:1.5%;
+}
+
+.row.main-nav-background {
+	background:#00456e;
+}
+
+.hamburger-padding {
+	padding:0;
+}
+
+/* Breadcrumbs */
+.row.breadcrumb {
+	background:#e5e5e5;
+    padding:0;
+    font-size:15px;
+    margin-bottom:0;
+}
+
+.row.breadcrumb-background {
+	background:#dfdfdf;
+}
+
+.row.breadcrumb a {
+	color:#005689;
+}
+
+.row.breadcrumb .glyphicon-menu-right {
+	font-size:10px;
+    color:#767676;
+}
+
+.breadcrumb-hover > li > a:focus, .breadcrumb-hover > li > a:hover {
+    background:#dfdfdf;
+    text-decoration:underline;
+    color:#005689;
+}
+
+/* Technology Section */
+section .technology {
+	background:#f4f4f4;
+    display:flex;
+}
+
+.tech-heading {
+	background:#fff;
+    color:#00456e;
+    position:relative;
+}
+
+.main-article-background {
+	background:#fff;
+}
+
+.row.main-article-padding {
+	padding-top:2.4%;
+}
+
+.tech-heading h3 {
+	font-weight:bold;
+    border-top:1px solid #4bc6df;
+    padding-top: 3%;
+}
+
+.spotlight-article figure img, .primary-article-1 figure img, .primary-article-2 figure img, .secondary-article figure img {
+	border-top:1px solid #4bc6df;
+    width:100%;
+}
+
+.spotlight-article figure img {
+    border-top:1px solid #951c55;
+    width:100%;
+}
+
+.spotlight-article {
+	background:#951c55;
+}
+
+.spotlight-article span {
+	padding:2%;
+    color:#fff;
+}
+
+.spotlight-article span, .spotlight-article a {
+	font-weight:normal;
+    font-size:12px;
+}
+
+.spotlight-article a:focus, .spotlight-article a:hover {
+	color:#fff;
+}
+
+.article-link:focus, .article-link:hover {
+	text-decoration:none;
+}
+
+.primary-article-1 h4, .primary-article-2 h4 {
+	color:#333;
+    font-size:17px;
+}
+
+.primary-article-1 p, .primary-article-1 span, .primary-article-1 a, .primary-article-2 p, .primary-article-2 span, .primary-article-2 a, .secondary-article span, .secondary-article a  {
+    color:#858585;
+    font-size:12px;
+}
+
+.primary-article-1 span, .primary-article-1 a, .primary-article-2 span, .primary-article-2 a, .secondary-article span, .secondary-article a {
+    padding-right:2%;
+}
+
+.box-coloured {
+    border-top:1px solid #951c55;
+    background:#951c55;
+    color:#fff;
+}
+
+.box-coloured span, .box-coloured a {
+    color:#fff;
+}
+
+.secondary-article h5 {
+	font-size:13px;
+    padding:2%;
+    color:#333;
+}
+
+.secondary-article-link > h5, .secondary-article-link:focus, .secondary-article-link:hover {
+	text-decoration:none;
+    color:#333;
+}
+
+.secondary-article-link-coloured > h5, .secondary-article-link-coloured:focus, .secondary-article-link-coloured:hover {
+	text-decoration:none;
+    color:#fff;
+}
+
+.box-standard {
+	border-top:1px solid #4bc6df;
+}
+
+.light-button {
+	color:#005689;
+    border:1px solid #4be6df;
+    padding:1% 4%;
+    background:#fff;
+    border-radius:15px;
+    font-size:12px;
+    position:absolute;
+    bottom:0;
+}
+
+.light-button:focus, .light-button:hover {
+    color:#333;
+    border:1px solid #bdbdbd;
+}
+
+.dark-button {
+	color:#fff;
+    border:1px solid #00507f;
+    background:#00507f;
+    padding:0.5% 1%;
+    border-radius:15px;
+    font-size:12px;
+    margin-top:2%;
+}
+
+.dark-button:focus, .dark-button:hover {
+    color:#fff;
+    border:1px solid #00456e;
+    background:#00456e;
+}
+
+.more-button {
+	padding-left:4%;
+}
+
+/* General Section Styles */
+.section-heading {
+	background:#fff;
+    color:#00456e;
+    position:relative;
+}
+
+.section-heading h3 {
+	font-weight:bold;
+    padding-top: 3%;
+}
+
+section .divider-bar {
+	background:#f4f4f4;
+    display:flex;
+}
+
+.divider {
+    margin-top:2%;
+    border-top:1px solid #4bc6df;
+}
+
+/* News Section */
