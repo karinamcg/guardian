@@ -24,7 +24,7 @@ header {
     background:#005689;
 }
 
-#guardian_logo {
+#guardian-logo {
     width:320px;
     height:60px;
 }
@@ -292,7 +292,7 @@ section .divider-bar {
     color:#005689;
 }
 
-.hamburger-padding-sml {
+.hamburger-padding-sml, .left-menu-top-sml, .main-menu-sml {
     display:none;
 }
 
@@ -333,7 +333,7 @@ section .divider-bar {
         padding:10px 5px;
     }
     
-    .hamburger-padding {
+    .hamburger-padding, .left-menu-top-sml, .main-menu-sml {
         display:none;
     }
     
@@ -360,7 +360,50 @@ section .divider-bar {
     z-index: 99;
   }
     
-    .right-menu-top {
+    .right-menu-top, .left-menu-top, .logo, .main-menu, .hamburger-padding, .breadcrumb {
         display:none;
+    }
+    
+    .left-menu-top-sml {
+        display:block;
+        padding:0;
+        font-size:20px;
+    }
+    
+    .main-menu-sml {
+        display:block;
+        padding:0;
+        font-size:16px;
+    }
+    
+    #guardian-logo {
+        width:30%;
+        height:auto;
+        padding:1%;
+        float:right;
+    }
+    
+    .hamburger-padding-xsml {
+	    padding:0;
+        display: block;
+    }
+    
+    .nav-link-padding > li > a {
+        padding: 10px 6px;
+    }
+    
+    section .wrap {
+        background:transparent;
+        display:block;
+    }
+    
+    .tech-heading {
+        float:none;
+        height:auto;
+    }
+    
+    .tech-heading h3 {
+        border-top:none;
+        padding-top:0;
     }
 } 
