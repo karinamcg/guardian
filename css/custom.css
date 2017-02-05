@@ -64,6 +64,7 @@ header {
 .nav-hamburger-background > li {
     background:#333;
     float:right;
+    padding:0 4% 0 4%;
 }
 
 .row.main-nav {
@@ -375,6 +376,33 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
     background:none;
 }
 
+.email-footer {
+    border-radius:62.5rem 0 0 62.5rem;
+    border:none;
+    padding:2%;
+}
+
+.signup-footer {
+    border-radius:0 62.5rem 62.5rem 0;
+    border:none;
+    padding:2%;
+    margin-left:-2%;
+    background:#767676;
+    color:#fff;
+}
+
+.signup-footer:hover {
+    background:#5d5d5d;
+}
+
+.hamburger-padding-xsml {
+    display:none;
+}
+
+.compact-footer {
+    display:none;
+}
+
 /****************************** 
 1024 x 768 LARGE TABLET MEDIA QUERIES 
 ******************************/
@@ -406,7 +434,7 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
         padding:10px 5px;
     }
     
-    .hamburger-padding, .left-menu-top-sml, .main-menu-sml {
+    .left-menu-top-sml, .main-menu-sml {
         display:none;
     }
     
@@ -415,6 +443,21 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
         display: block;
     }
     
+    .main-footer-nav {
+        font-size:13px;
+    }
+    
+    .hamburger-padding {
+        display:none;
+    }
+    
+    .email-footer {
+        width:65%;
+    }
+    
+    .compact-footer {
+        display:none;
+    }
 } 
 
 /**************************************
@@ -464,6 +507,10 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
     
     .nav-link-padding > li > a {
         padding: 10px 6px;
+    }
+    
+    .hamburger-padding-xsml ul.nav.nav-pills.nav-link-padding.nav-hamburger-background li {
+        padding:0;
     }
     
     section .wrap {
@@ -522,13 +569,15 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
         display:none;
     }
     
-    .people-image figure img {
-        width:25%;
-        padding:1%;
+    .people-image figure, .opinion-image figure {
+        margin:1%;
+        float:left;
+        width:23%;
     }
     
     .secondary-article.box-coloured.same-height.people-image a.secondary-article-link-coloured, .secondary-article.box-coloured.same-height.people-image a.secondary-article-link-coloured h5 {
-        float:right;
+        float:left;
+        font-size:15px;
     }
     
     .secondary-article.box-coloured.same-height.people-image a.secondary-article-link-coloured h6 {
@@ -538,4 +587,40 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
     .footer-nav {
         display:none;
     }
+    
+    .row.main-footer-nav-background div.col-md-10 ul.nav.nav-pills.nav-link-padding {
+        display:none;
+    }
+    
+    .row.footer-background div.col-md-4 form {
+        padding-bottom:7%;
+        border-bottom: 1px solid #767676;
+    }
+    
+    .full-footer {
+        display:none;
+    }
+    
+    .compact-footer {
+        display:block;
+    }
+    
+    .compact-footer ul.nav.nav-link-padding.footer-hover {
+        margin-top:10%;
+    }
+    
+    .box-coloured.same-height.people-image span, .box-coloured.same-height.people-image a {
+        float:right;
+    }
+    
+    .same-height {
+        height:125px;
+    }
+    
+    .opinion .same-height {
+        height:125px;
+        border-top:1px solid #4bc6df;
+        margin-top:2%;
+    }
+
 } 
