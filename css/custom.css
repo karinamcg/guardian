@@ -303,6 +303,26 @@ section .divider-bar {
     margin-bottom:2%;
 }
 
+/* In Depth Section */
+figure img.in-depth-image {
+    width:35%;
+    float:left;
+    padding:1%;
+}
+
+section.in-depth .box-coloured {
+    margin-bottom:3%;
+}
+
+section.in-depth .secondary-article.box-coloured a.article-link h5 {
+    color:#fff;
+}
+
+section.in-depth .secondary-article.box-standard {
+    background:#e5e5e5;
+    border-top:1px solid #951c55;
+}
+
 /* Footer Section */
 ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
     margin:0.5%;
@@ -457,6 +477,10 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
     
     .compact-footer {
         display:none;
+    }
+    
+    figure img.in-depth-image {
+        padding:1%;
     }
 } 
 
@@ -621,6 +645,11 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
         height:125px;
         border-top:1px solid #4bc6df;
         margin-top:2%;
+    }
+    
+    figure img.in-depth-image {
+        width:21%;
+        padding:1%;
     }
 
 } 
