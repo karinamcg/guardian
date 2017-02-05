@@ -302,6 +302,79 @@ section .divider-bar {
     margin-bottom:2%;
 }
 
+/* Footer Section */
+ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
+    margin:0.5%;
+}
+
+.topic-button {
+    background:#f1f1f1;
+    border:none;
+    border-radius:15px;
+    padding:2% 10% 2% 10%;
+}
+
+.topic-button a, .topic-button-last a {
+    color:#333;
+}
+
+.topic-button-last {
+    background:#fff;
+    border:none;
+    border-radius:15px;
+    padding:2% 10% 2% 10%;
+    border:1px solid #a4a4a4;
+}
+
+.topic-button:hover {
+    background:#dfdfdf;
+}
+
+.topic-button-last:hover {
+    border:1px solid #333;
+}
+
+.topic-heading {
+    color:#767676;
+}
+
+.footer-nav {
+    border-top:1px dotted #a4a4a4;
+    padding-top:1%;
+}
+
+.row.back-to-top-link, .main-footer-nav {
+    font-size:15px;
+    background:#1a6795;
+}
+
+.back-to-top-background {
+    padding:1%;
+    background:#005689;
+}
+
+.back-to-top-background a, .back-to-top-background span, .footer p {
+    color:#fff;
+}
+
+.copyright-border {
+    border-top:0.0625rem solid #767676;
+    padding-top:1%;
+}
+
+.main-footer-nav-background {
+    background:#00456e;
+}
+
+.footer, .footer-background {
+    background:#484848;
+    padding:2% 0 1% 0;
+}
+
+.footer-hover li a:hover {
+    background:none;
+}
+
 /****************************** 
 1024 x 768 LARGE TABLET MEDIA QUERIES 
 ******************************/
@@ -341,6 +414,7 @@ section .divider-bar {
 	    padding:0;
         display: block;
     }
+    
 } 
 
 /**************************************
@@ -367,7 +441,7 @@ section .divider-bar {
     .left-menu-top-sml {
         display:block;
         padding:0;
-        font-size:20px;
+        font-size:15px;
     }
     
     .main-menu-sml {
@@ -405,5 +479,63 @@ section .divider-bar {
     .tech-heading h3 {
         border-top:none;
         padding-top:0;
+    }
+    
+    .left-menu-top-sml ul.nav.nav-pills.nav-link-padding-top li a {
+        border-radius:50%;
+        border:1px solid #fff;
+    }
+    
+    .main-menu-sml ul.nav.nav-pills.nav-link-padding li.tech-breadcrumb {
+        background:#dfdfdf;
+        margin-left:0;
+        color:#005689;
+    }
+    
+    .main-menu-sml ul.nav.nav-pills.nav-link-padding li.tech-breadcrumb a {
+        color:#005689;
+    }
+    
+    .main-menu-sml ul.nav.nav-pills.nav-link-padding li.tech-breadcrumb a span.glyphicon.glyphicon-menu-right {
+        color:#767676;
+        font-size:10px;
+    }
+    
+    .spotlight-article {
+        margin-bottom:3%;
+    }
+    
+    .box-standard {
+        margin-bottom:3%;
+        background:#f4f4f4;
+    }
+    
+    .box-standard a.article-link p {
+        padding-left:2%;
+    }
+    
+    .box-coloured {
+        margin-bottom:3%;
+    }
+    
+    .light-button {
+        display:none;
+    }
+    
+    .people-image figure img {
+        width:25%;
+        padding:1%;
+    }
+    
+    .secondary-article.box-coloured.same-height.people-image a.secondary-article-link-coloured, .secondary-article.box-coloured.same-height.people-image a.secondary-article-link-coloured h5 {
+        float:right;
+    }
+    
+    .secondary-article.box-coloured.same-height.people-image a.secondary-article-link-coloured h6 {
+        display:none;
+    }
+    
+    .footer-nav {
+        display:none;
     }
 } 
