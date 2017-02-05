@@ -427,18 +427,6 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
 1024 x 768 LARGE TABLET MEDIA QUERIES 
 ******************************/
 @media only screen and (min-width: 641px) and (max-width: 1024px) { 
-  body::before {
-    content: "large tablet media query (641 > 1024) fired";
-    font-weight: bold;
-    display: block;
-    text-align: center;
-    background: rgba(255, 255, 0, 0.9); /* Semi-transparent yellow */
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 99;
-  }
     
     .nav-link-padding > li > a {
         margin-right:3%;
@@ -488,18 +476,6 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
 640 x 960 SMALL TABLET MEDIA QUERIES 
 ***************************************/
 @media only screen and (max-width:640px) { 
-  body::before {
-    content: "small tablet media query (< 640) fired";
-    font-weight: bold;
-    display: block;
-    text-align: center;
-    background: rgba(255, 255, 0, 0.9); /* Semi-transparent yellow */
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 99;
-  }
     
     .right-menu-top, .left-menu-top, .logo, .main-menu, .hamburger-padding, .breadcrumb {
         display:none;
@@ -650,6 +626,48 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
     figure img.in-depth-image {
         width:21%;
         padding:1%;
+    }
+    
+    /* Article Page */
+    section.article .main-article-background figure img {
+        width:100%;
+    }
+    
+    section.article .main-article-background figure figcaption {
+        border-bottom:1px dotted #a4a4a4;
+        padding-bottom:2%;
+    }
+    
+    section.article .main-article-background div.article-author span {
+        font-size:13px;
+    }
+    
+    section.article .main-article-background div.article-author, section.article .main-article-background div.article-author a {
+        color:#00456e;
+        font-weight:bold;
+    }
+    
+    section.article .main-article-background div.article-author {
+        border-bottom:1px dotted #a4a4a4;
+        padding-bottom:2%;
+    }
+    
+    section.article .main-article-background div.article-social ul {
+        padding-left:0;
+    }
+    
+    section.article .main-article-background div.article-social ul li {
+        display:inline;
+    }
+    
+    section.article .main-article-background div.article-social ul li a {
+        color:#333;
+        font-size:26px;
+        padding:1% 1% 1% 0;
+    }
+    
+    section.article .main-article-background h2 {
+        margin-bottom:4%;
     }
 
 } 
