@@ -361,30 +361,31 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
     margin:0.5%;
 }
 
-.topic-button {
+
+.footer-nav li a.topic-button {
     background:#f1f1f1;
     border:none;
     border-radius:15px;
-    padding:2% 10% 2% 10%;
+    padding:5px 10px 5px 10px;
 }
 
-.topic-button a, .topic-button-last a {
+.footer-nav li a.topic-button, .footer-nav li a.topic-button-last {
     color:#333;
 }
 
-.topic-button-last {
+.footer-nav li a.topic-button-last {
     background:#fff;
     border:none;
     border-radius:15px;
-    padding:2% 10% 2% 10%;
     border:1px solid #a4a4a4;
+    padding:5px 10px 5px 10px;
 }
 
-.topic-button:hover {
+.footer-nav li a.topic-button:hover {
     background:#dfdfdf;
 }
 
-.topic-button-last:hover {
+.footer-nav li a.topic-button-last:hover {
     border:1px solid #333;
 }
 
@@ -464,7 +465,7 @@ section.this-site .secondary-article.box-standard {
 
 section.this-site .secondary-article.box-standard.same-height a.secondary-article-link h5 {
     color:#fff;
-    font-size:18px;
+    font-size:16px;
 }
 
 /* Gadgets Section */
@@ -475,7 +476,7 @@ section.gadgets .secondary-article.box-standard {
 
 section.gadgets .secondary-article.box-standard.same-height a.secondary-article-link h5 {
     color:#fff;
-    font-size:18px;
+    font-size:16px;
 }
 
 span.glyphicon.glyphicon-star {
@@ -494,17 +495,17 @@ span.glyphicon.glyphicon-star {
 
 /* Reviews Section */
 section.reviews .secondary-article.box-dark.same-height.review-image a.secondary-article-link h5 {
-    font-size:17px;
+    font-size:16px;
     color:#333;
 }
 
 section.reviews .secondary-article.box-coloured.same-height.review-image a.secondary-article-link h5 {
-    font-size:17px;
+    font-size:16px;
     color:#fff;
 }
 
 section.reviews .secondary-article.box-coloured-2.same-height.review-image a.secondary-article-link h5 {
-    font-size:17px;
+    font-size:16px;
     color:#fff;
 }
 
@@ -514,7 +515,7 @@ section.reviews .secondary-article.box-coloured-2.same-height.review-image span.
 
 /* Games Section */
 section.games .secondary-article.box-coloured.same-height.games-image a.secondary-article-link h5 {
-    font-size:17px;
+    font-size:16px;
     color:#fff;
 }
 
