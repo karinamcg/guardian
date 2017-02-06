@@ -523,6 +523,10 @@ section.games .secondary-article.box-dark.same-height.games-image a.secondary-ar
     color:#333;
 }
 
+section.topics .section-heading ul.nav.nav-pills.footer-nav {
+    margin-top:4%;
+}
+
 /****************************** 
 1024 x 768 LARGE TABLET MEDIA QUERIES 
 ******************************/
