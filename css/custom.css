@@ -1,3 +1,13 @@
+/****************************************************
+    * Author: Karina McGourty
+
+    * Assignment: Recreate a Technology Web Page
+
+    * Student ID: STU-00001261
+
+    * Date: 2017/02/06
+*****************************************************/
+
 body {
     font-family: 'Arvo', serif;
 }
@@ -29,6 +39,13 @@ header {
     height:60px;
 }
 
+.glyphicon-border {
+    border:0.5px solid #fff;
+    border-radius:900px;
+    font-size:16px;
+    padding:8px;
+}
+
 /* Navigation */
 .nav > li > a:focus, .nav > li > a:hover {
     background:#005689;
@@ -53,8 +70,17 @@ header {
 }
 
 #nav-guardian_g {
-    width:25px;
-    height:20px;
+    width:40px;
+    height:35px;
+}
+
+.subscribe {
+    border-left:0.5px solid #fff;
+    margin-top:1%;
+}
+
+.nav-pills.nav-link-padding-top li a.nav-link-padding-top {
+    padding:4px 12px;
 }
 
 .nav-link-padding > li > a {
@@ -184,6 +210,12 @@ header {
     color:#fff;
 }
 
+.box-coloured-2 {
+    border-top:1px solid #951c55;
+    background:#005689;
+    color:#fff;
+}
+
 .secondary-article h5 {
 	font-size:13px;
     padding:2%;
@@ -282,6 +314,7 @@ section .divider-bar {
 .box-dark {
     background:#e5e5e5;
     color:#005689;
+    border-top:1px solid #4bc6df;
 }
 
 .box-dark h5 {
@@ -305,7 +338,7 @@ section .divider-bar {
 
 /* In Depth Section */
 figure img.in-depth-image {
-    width:35%;
+    width:34%;
     float:left;
     padding:1%;
 }
@@ -423,6 +456,73 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
     display:none;
 }
 
+/* On This Site Section */
+section.this-site .secondary-article.box-standard {
+    background:#7d7569;
+    border-top:1px solid #ffce4b;
+}
+
+section.this-site .secondary-article.box-standard.same-height a.secondary-article-link h5 {
+    color:#fff;
+    font-size:18px;
+}
+
+/* Gadgets Section */
+section.gadgets .secondary-article.box-standard {
+    background:#7d7569;
+    border-top:1px solid #ffce4b;
+}
+
+section.gadgets .secondary-article.box-standard.same-height a.secondary-article-link h5 {
+    color:#fff;
+    font-size:18px;
+}
+
+span.glyphicon.glyphicon-star {
+    color:#333;
+    font-size:14px;
+}
+
+ span.glyphicon.glyphicon-star.full {
+    color:#ffce4b;
+    font-size:14px;
+}
+
+.stars {
+    margin-left:4%;
+}
+
+/* Reviews Section */
+section.reviews .secondary-article.box-dark.same-height.review-image a.secondary-article-link h5 {
+    font-size:17px;
+    color:#333;
+}
+
+section.reviews .secondary-article.box-coloured.same-height.review-image a.secondary-article-link h5 {
+    font-size:17px;
+    color:#fff;
+}
+
+section.reviews .secondary-article.box-coloured-2.same-height.review-image a.secondary-article-link h5 {
+    font-size:17px;
+    color:#fff;
+}
+
+section.reviews .secondary-article.box-coloured-2.same-height.review-image span.glyphicon.glyphicon-comment, section.reviews .secondary-article.box-coloured-2.same-height.review-image a {
+    color:#fff;
+}
+
+/* Games Section */
+section.games .secondary-article.box-coloured.same-height.games-image a.secondary-article-link h5 {
+    font-size:17px;
+    color:#fff;
+}
+
+section.games .secondary-article.box-dark.same-height.games-image a.secondary-article-link h5 {
+    font-size:17px;
+    color:#333;
+}
+
 /****************************** 
 1024 x 768 LARGE TABLET MEDIA QUERIES 
 ******************************/
@@ -469,7 +569,17 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
     
     figure img.in-depth-image {
         padding:1%;
+        width:42%;
     }
+    
+    .nav-pills.nav-link-padding-top li a.nav-link-padding-top {
+        padding:4px 5px;
+    }        
+    
+    section.this-site .secondary-article.box-standard.same-height a.secondary-article-link h5, section.gadgets .secondary-article.box-standard.same-height a.secondary-article-link h5, section.reviews .secondary-article.box-standard.same-height a.secondary-article-link h5 {
+        font-size:15px;
+    }
+        
 } 
 
 /**************************************
@@ -561,7 +671,7 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
         padding-left:2%;
     }
     
-    .box-coloured {
+    .box-coloured, .box-coloured-2 {
         margin-bottom:3%;
     }
     
@@ -569,7 +679,7 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
         display:none;
     }
     
-    .people-image figure, .opinion-image figure {
+    .people-image figure, .opinion-image figure, .on-this-site-image figure, .gadget-image figure, .review-image figure, .games-image figure {
         margin:1%;
         float:left;
         width:23%;
@@ -668,6 +778,39 @@ ul.nav.nav-pills.footer-nav, ul.nav.nav-pills.footer-nav li {
     
     section.article .main-article-background h2 {
         margin-bottom:4%;
+    }
+    
+    section.reviews .secondary-article.box-coloured-2.same-height.review-image {
+        margin-top:3%;
+    }
+    
+    section.games .secondary-article.box-dark.same-height.games-image {
+        margin-bottom:3%;
+    }
+    
+    /* Social Icons */
+    .fa-facebook-official::before {
+        color:#3b5998;
+    }
+    
+    .fa-twitter-square::before {
+        color:#55acee;
+    }
+    
+    .fa-envelope::before {
+        color:#5d5d5d;
+    }
+    
+    .fa-linkedin-square::before {
+        color:#007bb5;
+    }
+    
+    .fa-google-plus-square::before {
+        color:#dd4b39;
+    }
+    
+    .fa-whatsapp::before {
+        color:#4dc247;
     }
 
 } 
